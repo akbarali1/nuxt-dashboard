@@ -6,12 +6,12 @@ import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '..\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-import '..\\node_modules\\bootstrap-icons\\font\\bootstrap-icons.css'
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 
-import _6f6c098b from '..\\layouts\\default.vue'
-import _1a3b0b8e from '..\\layouts\\log.vue'
+import _6f6c098b from '../layouts/default.vue'
+import _1a3b0b8e from '../layouts/log.vue'
 
 const layouts = { "_default": sanitizeComponent(_6f6c098b),"_log": sanitizeComponent(_1a3b0b8e) }
 

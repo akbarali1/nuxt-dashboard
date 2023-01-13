@@ -1,6 +1,6 @@
-export { default as Head } from '../..\\components\\Head.vue'
-export { default as Modal } from '../..\\components\\Modal.vue'
-export { default as Sidebar } from '../..\\components\\Sidebar.vue'
+export { default as Head } from '../../components/Head.vue'
+export { default as Modal } from '../../components/Modal.vue'
+export { default as Sidebar } from '../../components/Sidebar.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

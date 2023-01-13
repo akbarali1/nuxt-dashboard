@@ -4,18 +4,29 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _19ffa616 = () => interopDefault(import('..\\pages\\academic\\index.vue' /* webpackChunkName: "pages/academic/index" */))
-const _7063d17c = () => interopDefault(import('..\\pages\\course\\index.vue' /* webpackChunkName: "pages/course/index" */))
-const _5a7bc113 = () => interopDefault(import('..\\pages\\data\\index.vue' /* webpackChunkName: "pages/data/index" */))
-const _44c4a004 = () => interopDefault(import('..\\pages\\finances\\index.vue' /* webpackChunkName: "pages/finances/index" */))
-const _a006cb64 = () => interopDefault(import('..\\pages\\Login\\index.vue' /* webpackChunkName: "pages/Login/index" */))
-const _0c42b865 = () => interopDefault(import('..\\pages\\notice\\index.vue' /* webpackChunkName: "pages/notice/index" */))
-const _2f2680a4 = () => interopDefault(import('..\\pages\\programs\\index.vue' /* webpackChunkName: "pages/programs/index" */))
-const _7684b686 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
-const _5e945c15 = () => interopDefault(import('..\\pages\\scholarship\\index.vue' /* webpackChunkName: "pages/scholarship/index" */))
-const _f0ed6e36 = () => interopDefault(import('..\\pages\\students\\index.vue' /* webpackChunkName: "pages/students/index" */))
-const _282fb4b2 = () => interopDefault(import('..\\pages\\transfer\\index.vue' /* webpackChunkName: "pages/transfer/index" */))
-const _05c2a3a2 = () => interopDefault(import('..\\pages\\users\\index.vue' /* webpackChunkName: "pages/users/index" */))
+const _4258d5fd = () => interopDefault(import('../pages/academic.vue' /* webpackChunkName: "pages/academic" */))
+const _0afa2ac0 = () => interopDefault(import('../pages/academic/index.vue' /* webpackChunkName: "pages/academic/index" */))
+const _97c5a2de = () => interopDefault(import('../pages/course.vue' /* webpackChunkName: "pages/course" */))
+const _59927758 = () => interopDefault(import('../pages/course/index.vue' /* webpackChunkName: "pages/course/index" */))
+const _b484c3c0 = () => interopDefault(import('../pages/data.vue' /* webpackChunkName: "pages/data" */))
+const _6d230ca3 = () => interopDefault(import('../pages/data/index.vue' /* webpackChunkName: "pages/data/index" */))
+const _21150bcf = () => interopDefault(import('../pages/finances.vue' /* webpackChunkName: "pages/finances" */))
+const _085189dc = () => interopDefault(import('../pages/finances/index.vue' /* webpackChunkName: "pages/finances/index" */))
+const _3b372043 = () => interopDefault(import('../pages/Login.vue' /* webpackChunkName: "pages/Login" */))
+const _696d2886 = () => interopDefault(import('../pages/Login/index.vue' /* webpackChunkName: "pages/Login/index" */))
+const _58038264 = () => interopDefault(import('../pages/notice.vue' /* webpackChunkName: "pages/notice" */))
+const _76301a5e = () => interopDefault(import('../pages/notice/index.vue' /* webpackChunkName: "pages/notice/index" */))
+const _5b52d765 = () => interopDefault(import('../pages/programs.vue' /* webpackChunkName: "pages/programs" */))
+const _64377e28 = () => interopDefault(import('../pages/programs/index.vue' /* webpackChunkName: "pages/programs/index" */))
+const _0bc54568 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _4479d91c = () => interopDefault(import('../pages/scholarship.vue' /* webpackChunkName: "pages/scholarship" */))
+const _4aee1a9f = () => interopDefault(import('../pages/scholarship/index.vue' /* webpackChunkName: "pages/scholarship/index" */))
+const _0e502e0e = () => interopDefault(import('../pages/students.vue' /* webpackChunkName: "pages/students" */))
+const _69597211 = () => interopDefault(import('../pages/students/index.vue' /* webpackChunkName: "pages/students/index" */))
+const _e2c0823e = () => interopDefault(import('../pages/transfer.vue' /* webpackChunkName: "pages/transfer" */))
+const _4d7fd8a4 = () => interopDefault(import('../pages/transfer/index.vue' /* webpackChunkName: "pages/transfer/index" */))
+const _3f873782 = () => interopDefault(import('../pages/users.vue' /* webpackChunkName: "pages/users" */))
+const _b48ed6f6 = () => interopDefault(import('../pages/users/index.vue' /* webpackChunkName: "pages/users/index" */))
 
 const emptyFn = () => {}
 
@@ -30,99 +41,187 @@ export const routerOptions = {
 
   routes: [{
     path: "/academic",
-    component: _19ffa616,
-    name: "academic___en"
+    component: _4258d5fd,
+    children: [{
+      path: "",
+      component: _0afa2ac0,
+      name: "academic___en"
+    }]
   }, {
     path: "/course",
-    component: _7063d17c,
-    name: "course___en"
+    component: _97c5a2de,
+    children: [{
+      path: "",
+      component: _59927758,
+      name: "course___en"
+    }]
   }, {
     path: "/data",
-    component: _5a7bc113,
-    name: "data___en"
+    component: _b484c3c0,
+    children: [{
+      path: "",
+      component: _6d230ca3,
+      name: "data___en"
+    }]
   }, {
     path: "/finances",
-    component: _44c4a004,
-    name: "finances___en"
+    component: _21150bcf,
+    children: [{
+      path: "",
+      component: _085189dc,
+      name: "finances___en"
+    }]
   }, {
     path: "/Login",
-    component: _a006cb64,
-    name: "Login___en"
+    component: _3b372043,
+    children: [{
+      path: "",
+      component: _696d2886,
+      name: "Login___en"
+    }]
   }, {
     path: "/notice",
-    component: _0c42b865,
-    name: "notice___en"
+    component: _58038264,
+    children: [{
+      path: "",
+      component: _76301a5e,
+      name: "notice___en"
+    }]
   }, {
     path: "/programs",
-    component: _2f2680a4,
-    name: "programs___en"
+    component: _5b52d765,
+    children: [{
+      path: "",
+      component: _64377e28,
+      name: "programs___en"
+    }]
   }, {
     path: "/ru",
-    component: _7684b686,
+    component: _0bc54568,
     name: "index___ru"
   }, {
     path: "/scholarship",
-    component: _5e945c15,
-    name: "scholarship___en"
+    component: _4479d91c,
+    children: [{
+      path: "",
+      component: _4aee1a9f,
+      name: "scholarship___en"
+    }]
   }, {
     path: "/students",
-    component: _f0ed6e36,
-    name: "students___en"
+    component: _0e502e0e,
+    children: [{
+      path: "",
+      component: _69597211,
+      name: "students___en"
+    }]
   }, {
     path: "/transfer",
-    component: _282fb4b2,
-    name: "transfer___en"
+    component: _e2c0823e,
+    children: [{
+      path: "",
+      component: _4d7fd8a4,
+      name: "transfer___en"
+    }]
   }, {
     path: "/users",
-    component: _05c2a3a2,
-    name: "users___en"
+    component: _3f873782,
+    children: [{
+      path: "",
+      component: _b48ed6f6,
+      name: "users___en"
+    }]
   }, {
     path: "/ru/academic",
-    component: _19ffa616,
-    name: "academic___ru"
+    component: _4258d5fd,
+    children: [{
+      path: "",
+      component: _0afa2ac0,
+      name: "academic___ru"
+    }]
   }, {
     path: "/ru/course",
-    component: _7063d17c,
-    name: "course___ru"
+    component: _97c5a2de,
+    children: [{
+      path: "",
+      component: _59927758,
+      name: "course___ru"
+    }]
   }, {
     path: "/ru/data",
-    component: _5a7bc113,
-    name: "data___ru"
+    component: _b484c3c0,
+    children: [{
+      path: "",
+      component: _6d230ca3,
+      name: "data___ru"
+    }]
   }, {
     path: "/ru/finances",
-    component: _44c4a004,
-    name: "finances___ru"
+    component: _21150bcf,
+    children: [{
+      path: "",
+      component: _085189dc,
+      name: "finances___ru"
+    }]
   }, {
     path: "/ru/Login",
-    component: _a006cb64,
-    name: "Login___ru"
+    component: _3b372043,
+    children: [{
+      path: "",
+      component: _696d2886,
+      name: "Login___ru"
+    }]
   }, {
     path: "/ru/notice",
-    component: _0c42b865,
-    name: "notice___ru"
+    component: _58038264,
+    children: [{
+      path: "",
+      component: _76301a5e,
+      name: "notice___ru"
+    }]
   }, {
     path: "/ru/programs",
-    component: _2f2680a4,
-    name: "programs___ru"
+    component: _5b52d765,
+    children: [{
+      path: "",
+      component: _64377e28,
+      name: "programs___ru"
+    }]
   }, {
     path: "/ru/scholarship",
-    component: _5e945c15,
-    name: "scholarship___ru"
+    component: _4479d91c,
+    children: [{
+      path: "",
+      component: _4aee1a9f,
+      name: "scholarship___ru"
+    }]
   }, {
     path: "/ru/students",
-    component: _f0ed6e36,
-    name: "students___ru"
+    component: _0e502e0e,
+    children: [{
+      path: "",
+      component: _69597211,
+      name: "students___ru"
+    }]
   }, {
     path: "/ru/transfer",
-    component: _282fb4b2,
-    name: "transfer___ru"
+    component: _e2c0823e,
+    children: [{
+      path: "",
+      component: _4d7fd8a4,
+      name: "transfer___ru"
+    }]
   }, {
     path: "/ru/users",
-    component: _05c2a3a2,
-    name: "users___ru"
+    component: _3f873782,
+    children: [{
+      path: "",
+      component: _b48ed6f6,
+      name: "users___ru"
+    }]
   }, {
     path: "/",
-    component: _7684b686,
+    component: _0bc54568,
     name: "index___en"
   }],
 
