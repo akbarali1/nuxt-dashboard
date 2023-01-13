@@ -1,0 +1,11 @@
+{
+  "Head": {
+    "description": "Auto imported from components/Head.vue"
+  },
+  "Modal": {
+    "description": "Auto imported from components/Modal.vue"
+  },
+  "Sidebar": {
+    "description": "Auto imported from components/Sidebar.vue"
+  }
+}

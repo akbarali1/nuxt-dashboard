@@ -1,6 +1,5 @@
 <template>
   <section class="dashboard__main" data-idx="0">
-
     <Head text="Dashboard" />
     <div class="main__content">
       <div class="main__content-items">

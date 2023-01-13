@@ -1,15 +1,15 @@
 <template>
-    <nav class="header__nav">
+    <nav class="header__nav" :style="{ width: '300px' }">
         <div class="header__nav-logo">
             <img src="../static/images/logo-icon.png" alt="" />
-            <img src="../static/images/logo-text.png" alt="" />
+            <img src="../static/images/logo-text.png" alt="" v-if="sidebarActive" />
         </div>
         <div class="header__nav-list">
-            <nuxt-link v-for="link in links" @click.prevent="close(link)" :key="link.id" :to="localePath(`${link.to}`)"
-                class="header__nav-blocks" active-class="active" exact-path>
+            <nuxt-link v-for="link in links" :key="link.id" :to="localePath(`${link.to}`)" class="header__nav-blocks"
+                active-class="active" exact-path>
                 <div class="header__nav-blocks-item">
                     <i :class=link.icons></i>
-                    <p>{{ link.title }}</p>
+                    <p v-if="sidebarActive">{{ link.title }}</p>
                 </div>
             </nuxt-link>
         </div>
@@ -17,9 +17,11 @@
 </template>
 
 <script>
+
 export default {
     data() {
         return {
+            sidebarActive: this.$store.state.sidebarActive,
             links: [
                 {
                     title: 'Dashboard',
@@ -76,7 +78,7 @@ export default {
                     to: '/finances',
                     icons: 'bi bi-credit-card-fill',
                 },
-            ]
+            ],
         }
     },
 }
@@ -142,7 +144,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
     min-height: 100vh;
     background: white;
 }
@@ -165,7 +166,7 @@ section {
 .header__nav-blocks {
     display: flex;
     gap: 20px;
-    padding: 19px 5px 19px 20px;
+    padding: 19px;
     align-items: center;
     cursor: pointer;
 }

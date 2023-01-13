@@ -7,10 +7,7 @@
             </div>
 
             <form class="modal-programs-form">
-
                 <slot></slot>
-
-               
             </form>
         </div>
     </div>

@@ -1,0 +1,170 @@
+[
+  {
+    "name": "academic___en",
+    "path": "/academic",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\academic\\\\index.vue",
+    "chunkName": "pages/academic/index",
+    "_name": "_19ffa616"
+  },
+  {
+    "name": "course___en",
+    "path": "/course",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\course\\\\index.vue",
+    "chunkName": "pages/course/index",
+    "_name": "_7063d17c"
+  },
+  {
+    "name": "data___en",
+    "path": "/data",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\data\\\\index.vue",
+    "chunkName": "pages/data/index",
+    "_name": "_5a7bc113"
+  },
+  {
+    "name": "finances___en",
+    "path": "/finances",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\finances\\\\index.vue",
+    "chunkName": "pages/finances/index",
+    "_name": "_44c4a004"
+  },
+  {
+    "name": "Login___en",
+    "path": "/Login",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\Login\\\\index.vue",
+    "chunkName": "pages/Login/index",
+    "_name": "_a006cb64"
+  },
+  {
+    "name": "notice___en",
+    "path": "/notice",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\notice\\\\index.vue",
+    "chunkName": "pages/notice/index",
+    "_name": "_0c42b865"
+  },
+  {
+    "name": "programs___en",
+    "path": "/programs",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\programs\\\\index.vue",
+    "chunkName": "pages/programs/index",
+    "_name": "_2f2680a4"
+  },
+  {
+    "name": "index___ru",
+    "path": "/ru",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_7684b686"
+  },
+  {
+    "name": "scholarship___en",
+    "path": "/scholarship",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\scholarship\\\\index.vue",
+    "chunkName": "pages/scholarship/index",
+    "_name": "_5e945c15"
+  },
+  {
+    "name": "students___en",
+    "path": "/students",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\students\\\\index.vue",
+    "chunkName": "pages/students/index",
+    "_name": "_f0ed6e36"
+  },
+  {
+    "name": "transfer___en",
+    "path": "/transfer",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\transfer\\\\index.vue",
+    "chunkName": "pages/transfer/index",
+    "_name": "_282fb4b2"
+  },
+  {
+    "name": "users___en",
+    "path": "/users",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\users\\\\index.vue",
+    "chunkName": "pages/users/index",
+    "_name": "_05c2a3a2"
+  },
+  {
+    "name": "academic___ru",
+    "path": "/ru/academic",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\academic\\\\index.vue",
+    "chunkName": "pages/academic/index",
+    "_name": "_19ffa616"
+  },
+  {
+    "name": "course___ru",
+    "path": "/ru/course",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\course\\\\index.vue",
+    "chunkName": "pages/course/index",
+    "_name": "_7063d17c"
+  },
+  {
+    "name": "data___ru",
+    "path": "/ru/data",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\data\\\\index.vue",
+    "chunkName": "pages/data/index",
+    "_name": "_5a7bc113"
+  },
+  {
+    "name": "finances___ru",
+    "path": "/ru/finances",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\finances\\\\index.vue",
+    "chunkName": "pages/finances/index",
+    "_name": "_44c4a004"
+  },
+  {
+    "name": "Login___ru",
+    "path": "/ru/Login",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\Login\\\\index.vue",
+    "chunkName": "pages/Login/index",
+    "_name": "_a006cb64"
+  },
+  {
+    "name": "notice___ru",
+    "path": "/ru/notice",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\notice\\\\index.vue",
+    "chunkName": "pages/notice/index",
+    "_name": "_0c42b865"
+  },
+  {
+    "name": "programs___ru",
+    "path": "/ru/programs",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\programs\\\\index.vue",
+    "chunkName": "pages/programs/index",
+    "_name": "_2f2680a4"
+  },
+  {
+    "name": "scholarship___ru",
+    "path": "/ru/scholarship",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\scholarship\\\\index.vue",
+    "chunkName": "pages/scholarship/index",
+    "_name": "_5e945c15"
+  },
+  {
+    "name": "students___ru",
+    "path": "/ru/students",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\students\\\\index.vue",
+    "chunkName": "pages/students/index",
+    "_name": "_f0ed6e36"
+  },
+  {
+    "name": "transfer___ru",
+    "path": "/ru/transfer",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\transfer\\\\index.vue",
+    "chunkName": "pages/transfer/index",
+    "_name": "_282fb4b2"
+  },
+  {
+    "name": "users___ru",
+    "path": "/ru/users",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\users\\\\index.vue",
+    "chunkName": "pages/users/index",
+    "_name": "_05c2a3a2"
+  },
+  {
+    "name": "index___en",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Давид\\\\Desktop\\\\nuxt-dashboard-main\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_7684b686"
+  }
+]

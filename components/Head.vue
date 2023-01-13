@@ -1,12 +1,11 @@
 <template>
     <div>
         <div class="main__head">
-            <div class="burger-menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+            <i class="bi bi-list burger-menu" @click="sidebarActions(store)"></i>
             <div class="main__head-title">{{ text }}</div>
             <div class="main__head-block">
-                <nuxt-link :to="switchLocalePath($t('code'))" style="text-transform: uppercase;">{{ $t('code')
+                <nuxt-link :to="switchLocalePath($t('code'))" style="text-transform: uppercase;">{{
+                    $t('code')
                 }}</nuxt-link>
 
                 <select class="form-select" aria-label="Default select example">
@@ -18,7 +17,6 @@
 
                 <a href="#!">
                     <i class="bi bi-bell-fill" style="color:#E92026;"></i>
-
                 </a>
                 <a href="#!">
                     <img src="../static/images/main__head-avatar.png" alt="" />
@@ -37,9 +35,18 @@
 
 <script>
 
+import { mapMutations } from 'vuex'
 
 export default {
     props: ['text', 'subtitle'],
+    data() {
+        return {
+            store: this.$store.state
+        }
+    },
+    methods: {
+        ...mapMutations(['sidebarActions']),
+    }
 }
 
 </script>
@@ -103,10 +110,6 @@ hr {
     margin-right: 25px;
 }
 
-.burger-menu {
-    display: none;
-}
-
 .main__block-name {
     background: white;
     padding: 4px 20px;
@@ -125,5 +128,14 @@ hr {
     letter-spacing: 0em;
     text-align: left;
     color: #8b8d97;
+}
+
+.burger-menu {
+    font-size: 20px;
+    background: rgb(192, 192, 192);
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
 }
 </style>
