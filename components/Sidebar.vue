@@ -3,6 +3,7 @@
         <div class="header__nav-logo">
             <img src="../static/images/logo-icon.png" alt="" />
             <img src="../static/images/logo-text.png" alt="" v-if="sidebarActive" />
+
         </div>
         <div class="header__nav-list">
             <nuxt-link v-for="link in links" :key="link.id" :to="localePath(`${link.to}`)" class="header__nav-blocks"
@@ -79,8 +80,13 @@ export default {
                     icons: 'bi bi-credit-card-fill',
                 },
             ],
+            
+
         }
     },
+    methods: {
+
+    }
 }
 
 </script>

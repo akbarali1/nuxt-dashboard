@@ -8,7 +8,7 @@
                 <h3 class="users-content-title">Courses</h3>
                 <div class="main__all-btn">
                     <button class="main__programs-content-btn modalBtn">
-                        <img src="images/plus.png" alt="" />
+                        <i class="bi bi-plus"></i>
 
                         Create a New Course
                     </button>
@@ -123,7 +123,21 @@ export default {
                         {
                             title: 'Biochemistry & Lab',
                             code: 'MBKD103',
-                            credits: '4',
+                            credits: '1',
+                            program: 'Medical School',
+                            action: 'Select'
+                        },
+                        {
+                            title: 'Biochemistry & Lab',
+                            code: 'MBKD103',
+                            credits: '2',
+                            program: 'Medical School',
+                            action: 'Select'
+                        },
+                        {
+                            title: 'Biochemistry & Lab',
+                            code: 'MBKD103',
+                            credits: '3',
                             program: 'Medical School',
                             action: 'Select'
                         },
@@ -137,21 +151,7 @@ export default {
                         {
                             title: 'Biochemistry & Lab',
                             code: 'MBKD103',
-                            credits: '4',
-                            program: 'Medical School',
-                            action: 'Select'
-                        },
-                        {
-                            title: 'Biochemistry & Lab',
-                            code: 'MBKD103',
-                            credits: '4',
-                            program: 'Medical School',
-                            action: 'Select'
-                        },
-                        {
-                            title: 'Biochemistry & Lab',
-                            code: 'MBKD103',
-                            credits: '4',
+                            credits: '5',
                             program: 'Medical School',
                             action: 'Select'
                         },

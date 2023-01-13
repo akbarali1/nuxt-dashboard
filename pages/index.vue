@@ -205,7 +205,7 @@ export default {
   padding-right: 19px;
   display: grid;
   grid-template-columns: 1.5fr 1.5fr 2.3fr;
-  grid-auto-rows: 150px;
+  grid-auto-rows: 165px;
   gap: 20px;
 }
 
